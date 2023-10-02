@@ -8,7 +8,7 @@ ul {
     list-style: none;
 }
 li {
-    padding: 12px;
+    padding: 16px;
 }
 a {
     text-decoration: none;
@@ -21,7 +21,41 @@ button {
     border: none;
     font-weight: bold;
 }
-.first {
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 0px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    color: #F0FAF8;
+    font-weight: 900;
+}
+.HeaderLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #F0FAF8;
+}
+.section1 {
+    background-color: #1F2937;
+    padding: 32px 10%;    
+    display: flex;
+    justify-content: center;
+}
+.placeholder {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+.content-left {
+    flex: 1 1 auto;
+}
+/* .first {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -49,4 +83,4 @@ button {
 }
 .first-left {
 
-}
+} */
